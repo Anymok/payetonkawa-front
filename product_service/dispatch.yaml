@@ -1,0 +1,15 @@
+dispatch:
+  - url: "*/api/customer/*"
+    module: customer-service
+
+  - url: "*/api/product/*"
+    module: product-service
+
+  - url: "*/api/order/*"
+    module: order-service
+
+  - url: "*/api/inventory/*"
+    module: inventory-service
+
+  - url: "*/*"
+    module: frontend
